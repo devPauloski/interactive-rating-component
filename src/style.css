@@ -84,7 +84,7 @@ h2 {
 }
 
 .feedback-section > * {
-  margin-block-end: 1.25rem;
+  margin-block-end: 1.5rem;
 }
 
 .icon-star {
@@ -98,7 +98,7 @@ h2 {
 
 fieldset {
   border: 0;
-  margin-block-end: 1.25rem;
+  margin-block-end: 1.5rem;
 }
 
 .rating-options {
@@ -160,6 +160,7 @@ input[type="radio"]:focus-visible + label {
   background-color: var(--clr-Orange-500);
   color: var(--clr-grey-900);
   font-weight: var(--fw-bold);
+  text-transform: uppercase;
   transition: background-color 0.15s;
 }
 
