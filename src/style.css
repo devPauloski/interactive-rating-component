@@ -172,6 +172,33 @@ input[type="radio"]:focus-visible + label {
   outline-offset: 2px;
 }
 
+.confirmation-section {
+  background-color: var(--clr-grey-900);
+  display: grid;
+  place-items: center;
+  gap: 1.5rem;
+  text-align: center;
+  padding: 1.5rem 2rem;
+  border-radius: 1rem;
+}
+
+@media(min-width: 48em) {
+  .confirmation-section {
+    padding: 2rem;
+  }
+}
+
+.rating-output {
+  background-color: hsla(var(--clr-grey-500-hsl-values), 0.15);
+  padding: .5em 1.5em;
+  border-radius: 100vmax;
+  color: var(--clr-Orange-500);
+}
+
+.thank-you-message {
+  max-width: 35ch;
+}
+
 .hidden {
   display: none;
 }

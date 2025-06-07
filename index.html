@@ -16,7 +16,7 @@
     </header>
     <main>
       <article class="wrapper">
-        <section class="feedback-section">
+        <section class="feedback-section hidden">
           <div class="icon-star"><img src="./src/images/icon-star.svg" alt=""></div>
           <h2>How did we do?</h2>
           <p>
@@ -46,13 +46,14 @@
             <button class="submit-button" type="submit">Submit</button>
           </form>
         </section>
-        <section class="confirmation-section hidden">
-            You selected <!-- Add rating here --> out of 5
-
-            Thank you!
-
-            We appreciate you taking the time to give a rating. If you ever need more support, 
-            don’t hesitate to get in touch!
+        <section class="confirmation-section">
+          <img src="./src/images/illustration-thank-you.svg" alt="">
+          <p class="rating-output">You selected out <span class="user-rating"></span> of 5</p>
+          <h2>Thank you!</h2>
+          <p class="thank-you-message">
+            We appreciate you taking the time to give a rating. 
+            If you ever need more support, don’t hesitate to get in touch!
+          </p>
         </section>
       </article>
     </main>
