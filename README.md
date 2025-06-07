@@ -11,9 +11,9 @@ Users should be able to:
 - Select and submit a number rating
 - See the "Thank you" card state after submitting a rating
 
-### Screenshot
+### Webpage preview
 
-![Webpage preview](./screenshot.jpg)
+![Webpage preview](image.png)
 
 ### Built with
 
@@ -22,5 +22,5 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- Vite
 - Vanilla JavaScript
+- Vite
