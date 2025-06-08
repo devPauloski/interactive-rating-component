@@ -18,6 +18,5 @@ form.addEventListener("submit", (event) => {
     selectedRating.textContent = clickedRating;
     feedbackSection.classList.add("hidden");
     confirmationSection.classList.remove("hidden");
-    ratings.forEach(rating => rating.checked = false);
   }
 });
